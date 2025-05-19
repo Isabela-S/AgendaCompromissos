@@ -1,0 +1,15 @@
+# Ignora a pasta dist
+frontend/dist/
+
+# Ignora dependências npm ou yarn
+node_modules/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de configuração sensíveis 
+.env
+
+# Arquivos do sistema (macOS e Windows)
+.DS_Store
+Thumbs.db

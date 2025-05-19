@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agenda de Compromissos</title>
+</head>
+<body>
+  <h1>Agenda de Compromissos</h1>
+
+  <form id="formCompromisso">
+    <label>
+      Título:
+      <input type="text" id="titulo" required />
+    </label>
+    <br />
+    <label>
+      Data:
+      <input type="date" id="data" required />
+    </label>
+    <br />
+    <label>
+      Hora:
+      <input type="time" id="hora" required />
+    </label>
+    <br />
+    <label>
+      Descrição:
+      <textarea id="descricao"></textarea>
+    </label>
+    <br />
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Compromissos</h2>
+  <ul id="listaCompromissos"></ul>
+
+  <script src="./dist/app.js"></script>
+</body>
+</html>
