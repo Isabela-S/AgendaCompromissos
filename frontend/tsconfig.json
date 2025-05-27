@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "ESNext",
+    "target": "es6",
+    "module": "commonjs",
     "outDir": "./dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "strict": true
   },
-  "include": ["app.ts"]
+  "include": ["*.ts"],
+  "exclude": ["dist"]
 }
+
+
